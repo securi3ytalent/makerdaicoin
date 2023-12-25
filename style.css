@@ -64,7 +64,6 @@
 }
 
 /* section two */
-
 .main-section .right-section {
 	background-color: #566976;
 	max-height: 380px;
@@ -84,6 +83,38 @@
 	font-size: 20px;
 	line-height: 31px;
 }
+/* section 3 */
+
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 6%;
+}
+.right-area img{
+    width: 100%;
+    
+}
+.left-area-box p{
+    width: 60%;
+    font-size: 20px;
+    word-spacing: 2px;
+    padding-top: 20px;
+}
+.left-area-box a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #27A091;
+}
+.left-area-box a:hover{
+    color: #2dbfae;
+}
+
+
+
+
+
+
+
 
 
 
