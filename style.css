@@ -84,14 +84,20 @@
 	line-height: 31px;
 }
 /* section 3 */
-
+.section-container{
+    padding-top: 80px !important;
+}
 .container-box{
     display: flex;
     justify-content: space-between;
-    padding: 130px 6%;
+    padding: 50px 12%;
+}
+.right-area{
+    width: 20%;
 }
 .right-area img{
     width: 100%;
+    padding-top: 45px;
     
 }
 .left-area-box p{
