@@ -95,10 +95,17 @@
 .right-area{
     width: 20%;
 }
-.right-area img{
-    width: 100%;
-    padding-top: 45px;
-    
+.img1 img {
+	width: 230px;
+    margin-right: 10;
+}
+.img2 img {
+	width: 170px;
+	margin-left: 14px;
+}
+.img3 img {
+	width: 280px;
+	margin-left: -22px;
 }
 .left-area-box p{
     width: 60%;
