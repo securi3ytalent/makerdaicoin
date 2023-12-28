@@ -173,12 +173,47 @@
 .blog-box .blog-box-box{
     padding: 0 15px;
 }
+.blog-box .blog-box-box p{
+    font-size: 16px;
+}
+.blog-box .blog-box-box span{
+    font-size: 16px;
+    opacity: 0.5;
+}
 
-
-
-
-
-
+/*Financial Success*/
+.start-section-main-box{
+    padding-top: 200px;
+}
+.start-section-main-box h2{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.start-main-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.start-main-box .Start-box{
+    margin: 0 10px;
+    /*background-color: #2dbfae;*/
+    padding: 0 20px;
+}
+.start-main-box .Start-box img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.start-main-box .Start-box h5{
+    text-align: center;
+}
+.start-main-box .Start-box p{
+    text-align: center;
+}
+#btn button{
+    margin: 30px auto;
+    display: block;
+}
 
 
 
@@ -284,6 +319,35 @@
     }
   }
 
+
+@media only screen and (max-width: 936px) {
+    .join-hader p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .join-con-box {
+        background-color: #F9FBFC;
+        height: auto;
+    }
+    .blog-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-box img{
+        width: 100%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+        overflow: hidden;
+        clear: both;
+        display: block;
+    }
+    .blog-section .blog-box {
+        border: 1px solid rgb(209, 222, 230);
+        margin: 30px 0;
+    }
+
+}
 
 
 
