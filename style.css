@@ -22,8 +22,9 @@
     color: #27A091;
 }
 .header-bg-color{
-    background: rgb(247,250,238);
-    background: radial-gradient(circle, rgba(247,250,238,1) 13%, rgba(240,254,252,1) 74%); 
+    background-color: #EAFBFC;
+    /* background: rgb(247,250,238);
+    background: radial-gradient(circle, rgba(247,250,238,1) 13%, rgba(240,254,252,1) 74%);  */
     padding: 10px 0;
 }
 
@@ -121,6 +122,64 @@
 .left-area-box a:hover{
     color: #2dbfae;
 }
+/* Join the community section */
+.join-con-box {
+    background-color: #F9FBFC;
+    height: 740px;
+}
+.join-con-box .join-hader{
+    display: block;
+    text-align: center;
+    padding: 70px 0;
+}
+.join-hader h4 {
+    padding-bottom: 15px;
+}
+.join-hader p {
+    font-size: 19px;
+    line-height: 14px;
+}
+.join-con-box .blg{
+    text-align: center;
+    display: block;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.social-icon .box1 i{
+    color: #2dbfae;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*blog section*/
+.blg h4{
+    padding: 40px 0;
+}
+.blog-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -20px;
+}
+
+.blog-section .blog-box{
+    border: 1px solid rgb(209, 222, 230);
+}
+.blog-box .blog-box-box{
+    padding: 0 15px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -154,6 +213,7 @@
     .hero-section {
         width: 100%;
         display: block;
+        padding: 120px 10px;
     }
     .hero-sec-btn button:first-child {
         background-color: #2dbfae;
