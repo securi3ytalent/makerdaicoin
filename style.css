@@ -29,7 +29,13 @@
 }
 
 /* her-section */
-
+.hero-main-sec{
+    display: flex;
+}
+.hero-right-sec img {
+	width: 92%;
+	padding-top: 20%;
+}
 .hero-section{
     padding: 150px 100px;
 }
@@ -196,32 +202,48 @@
     margin: auto;
     padding-bottom: 25px;
 }
-.start-main-box{
-    display: flex;
-    justify-content: space-evenly;
+.start-main-box {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 50px;
+    align-items: center;
+    text-align: center;
 }
-.start-main-box .Start-box{
-    margin: 0 10px;
-    /*background-color: #2dbfae;*/
-    padding: 0 20px;
+.start-main-box .Start-box {
+	margin: 0 10px;
+	/* background-color: #2dbfae; */
+	padding: 0 20px;
+	width: 35%;
 }
 .start-main-box .Start-box img{
-    width: 60%;
+    width: 70%;
     display: block;
     margin: auto;
 }
 .start-main-box .Start-box h5{
     text-align: center;
+    padding-top: 13px;
 }
 .start-main-box .Start-box p{
     text-align: center;
+    font-size: 14px;
+    line-height: 8px;
+    opacity: 0.6;
 }
-#btn button{
-    margin: 30px auto;
-    display: block;
+#btn button {
+	margin: 30px auto;
+	display: block;
+	padding: 10px 47px;
+	background-color: #1DAE9D;
+	border: none;
+	color: #FFF;
+	border-radius: 5px;
 }
-
-
+#btn button:hover{
+    background-color: transparent;
+    border: 2px solid #1DAE9D;
+    color: #000;
+}
 
 
 
@@ -243,10 +265,21 @@
     .hero-sec-btn button:last-child{
         margin-top: 30px;
     }
+    .hero-main-sec{
+        flex-direction: column;
+    }
+    .hero-right-sec img {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .hero-left-sec{
+        padding-bottom: 0px;
+    }
     .hero-section {
         width: 100%;
         display: block;
-        padding: 120px 10px;
+        padding: 80px 10px;
     }
     .hero-sec-btn button:first-child {
         background-color: #2dbfae;
@@ -350,6 +383,17 @@
     }
 
 }
-
+/* Financial Success */
+@media only screen and (max-width: 936px){
+    .start-main-box{
+        flex-direction: column;
+    }
+    .start-main-box .Start-box{
+        width: 100%;
+    }
+    .start-main-box .Start-box img{
+        padding: 25px 0;
+    }
+}
 
 
