@@ -183,6 +183,7 @@
 
 .blog-section .blog-box{
     border-radius: 8px;
+    cursor: pointer;
     border: 1px solid rgb(209, 222, 230);
 }
 .blog-section .blog-box:hover{
@@ -191,9 +192,13 @@
 .blog-box .blog-box-box{
     padding: 0 15px;
 }
-.blog-box .blog-box-box p{
+.blog-box .blog-box-box a{
+    text-decoration: none;
+}
+.blog-box .blog-box-box a p{
     font-size: 16px;
     /* padding: 0 0; */
+    color: #000;
 }
 .blog-box .blog-box-box span{
     font-size: 15px;
@@ -204,7 +209,7 @@
 .start-section-main-box{
     padding-top: 200px;
 }
-#btn a{
+#btn .a{
     text-decoration: none;
 }
 .start-section-main-box h2{
@@ -706,6 +711,7 @@ a{
     }
     .blog-box img{
         width: 100%;
+        
     }
     .container, .container-md, .container-sm {
         max-width: 720px;

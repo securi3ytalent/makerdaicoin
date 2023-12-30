@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* nav-ber area */
+.menu-area .navbar{
+    text-align: center;
+    align-items: center;
+}
+.navbar-brand img{
+    width: 120px;
+}
+.navbar-nav .f-width{
+    font-weight: 400;
+    font-size: 17px;
+}
+.navbar-nav .f-width:hover{
+    color: #27A091;
+}
