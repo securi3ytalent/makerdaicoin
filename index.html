@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>makerdaicoin</title>
+    <!-- wow js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="js/WOW.js"></script>
     <!-- jQuery CDN + jQuery Modal Video Plugin -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/modal-video.min.js"></script>
@@ -41,7 +44,7 @@
               </nav>
               <!-- hero-section -->
              <div class="hero-main-sec">
-              <div class="hero-left-sec">
+              <div class="hero-left-sec animate__animated animate__bounceInLeft">
                 <div class="hero-section">
                   <h1>A better, smarter <span>currency</span></h1>
                   <p>Dai can be used by anyone, anywhere, anytime.</p>
@@ -51,7 +54,7 @@
                   </div>
                 </div>
               </div>
-              <div class="hero-right-sec">
+              <div class="hero-right-sec animate__animated animate__bounceInRight">
                 <img src="img/lightcoin.png" alt="">
               </div>
              </div>
@@ -59,7 +62,7 @@
     </header>
     <!-- section two -->
     <section>
-      <div class="main-section d-flex">
+      <div class="main-section d-flex animate__animated animate__fadeInUp">
         <div class="left-section">
           <img src="img/middle-background.png" alt="">
         </div>
@@ -98,7 +101,7 @@
           <img src="img/bg.png" alt="">
         </div>
        </div>
-       <div class="container-box">
+       <div class="container-box ">
         <div class="left-area">
           <div class="left-area-box">
             <h4>A growing ecosystem</h4>
@@ -115,7 +118,7 @@
     <section>
       <div class="container">
         <div class="join-con-box">
-          <div class="join-hader">
+          <div class="join-hader animate__animated animate__fadeInUp">
             <h4>Join the community</h4>
             <p>Learn more about Maker, chat with the team, others in the community,</p>
             <p>and have your say in shaping the future of decentralized finance.</p>
@@ -288,7 +291,6 @@
 
 
 
-
     
     <script>
         // jQuery Modal Video Plugin
@@ -304,7 +306,8 @@
             });
         });
 
-
+        // wow js
+        new WOW().init();
 
     </script>
     <script src="app.js"></script>
