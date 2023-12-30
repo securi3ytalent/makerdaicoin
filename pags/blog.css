@@ -423,3 +423,102 @@ a{
 
 
 
+
+
+
+
+/* menu area */
+@media only screen and (max-width: 486px) {
+    .hero-sec-btn button:last-child{
+        margin-top: 30px;
+    }
+    .hero-main-sec{
+        flex-direction: column;
+    }
+    .hero-right-sec img {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .hero-left-sec{
+        padding-bottom: 0px;
+    }
+    .hero-section {
+        width: 100%;
+        display: block;
+        padding: 80px 10px;
+    }
+    .hero-sec-btn button:first-child {
+        background-color: #2dbfae;
+        border: none;
+        padding: 9px 40px;
+        border-radius: 30px;
+        color: #FFF;
+        font-size: 16px;
+        margin-top: 13px;
+        animation: none;
+        box-shadow: 4px 6px 24px 1px rgba(0,0,0,0.21);
+        -webkit-box-shadow: 4px 6px 24px 1px rgba(0,0,0,0.21);
+        -moz-box-shadow: 4px 6px 24px 1px rgba(0,0,0,0.21);
+    }
+    .hero-section h1 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .hero-section p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .navbar-nav{
+        background-color: #eaf5f4;
+        width: 100%;
+        margin: auto;
+        display: block;
+        z-index: 999;
+        margin-top: 18px;
+        border-bottom-left-radius: 110px;
+        border-bottom-right-radius: 5px;
+        
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 936px) {
+    .join-hader p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .join-con-box {
+        background-color: #F9FBFC;
+        height: auto;
+    }
+    .blog-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-box img{
+        width: 100%;
+        
+    }
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+        overflow: hidden;
+        clear: both;
+        display: block;
+    }
+    .blog-section .blog-box {
+        border: 1px solid rgb(209, 222, 230);
+        margin: 30px 10px;
+        padding-bottom: 20px;
+    }
+    .blog-box .blog-box-box p {
+        font-size: 17px;
+    }
+
+}
+
