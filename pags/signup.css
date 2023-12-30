@@ -10,6 +10,12 @@ body {
 .title_container img{
     width: 50%;
 }
+.home-icon a img{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 28px;
+}
 .clearfix {
   &:after {
     content: "";
