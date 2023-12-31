@@ -36,8 +36,8 @@ body {
 	height: 600px;
 	width: 100%;	
 	box-shadow: 0px 0px 24px #5C5696;
+	
 }
-
 .screen__content {
 	z-index: 1;
 	position: relative;	
@@ -203,3 +203,26 @@ body {
 .social-login__icon:hover {
 	transform: scale(1.5);	
 }
+
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 936px){
+	.screen{
+		overflow: hidden;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+
+

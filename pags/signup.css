@@ -369,6 +369,11 @@ body {
   }
 }
 
+@media only screen and (max-width: 936px){
+	body{
+		background-color: #1DAE9D;
+	}
+}
 
 
 
