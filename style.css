@@ -373,6 +373,7 @@ li{
     font-size: 15px;
     font-weight: 500;
 	color: #777777;
+    text-decoration: none;
 }
 .use-links li a:hover{
 	color: #000;
@@ -482,6 +483,7 @@ a{
 	color: #82074a; */
 	/* margin-right: 18px; */
 	color: #777777;
+    text-decoration: none;
 }
 .social-icons a:hover{
 	color: #000;
@@ -540,6 +542,7 @@ li{
     font-size: 15px;
     font-weight: 500;
 	color: #777777;
+    text-decoration: none;
 
 }
 .address-links li i{
