@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+     <!-- fontawesome icon -->
+     <script src="https://kit.fontawesome.com/6283b0e928.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -23,10 +25,13 @@
                         <i class="login__icon fas fa-user"></i>
                         <input type="text" class="login__input" placeholder="User name / Email">
                     </div>
+
                     <div class="login__field">
-                        <i class="login__icon fas fa-lock"></i>
-                        <input type="password" class="login__input" placeholder="Password">
+                        <i class="login__icon fas fa-lock" id="togglePassword"></i>
+                        <input type="password" name="password" id="password" class="login__input" placeholder="Password">
                     </div>
+
+
                     <div class="checkbox-div">
                         <a href="#"><p>Forgot password?</p></a>
                     </div>
@@ -52,6 +57,32 @@
             </div>		
         </div>
     </div>
+
+
+
+
+    <script>
+        const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#password");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+
+        // prevent form submit
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+
+
 
 
     
